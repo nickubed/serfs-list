@@ -7,8 +7,19 @@ body{
 }
 .header{
   border-bottom: 3px solid black;
-  background-image: "url('/headerbackground.png')";
+  background-image: url('/headerbackground.png');
+  background-size: cover;
   height: 25vh;
+}
+.category{
+  display: inline-block;
+  border-style: 3px solid black;
+  border-radius: 3px;
+  padding: 0 18px;
+  margin: 25px 18px;
+  background-color: grey;
+  width: 18vw;
+  height: 15vh;
 }
 
 #pagename{
