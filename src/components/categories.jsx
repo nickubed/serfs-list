@@ -4,13 +4,13 @@ const Categories = props => {
     return (
         <div>
             <div className="category">
-                <p>Hello</p>
+                <p className="catName">Hello</p>
             </div>
             <div className="category">
-                <p>Hello</p>
+                <p className="catName">Hello</p>
             </div>
             <div className="category">
-                <p>Hello</p>
+                <p className="catName">Hello</p>
             </div>
         </div>
     )
