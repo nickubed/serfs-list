@@ -1,0 +1,72 @@
+nav {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        li {
+            display: inline;
+            img {
+                height: 1vw;
+            }
+        }
+        #pagename{
+            text-align: left;
+            margin-left: 5vw;
+        }
+        
+        #favorites{
+            margin-right: 1vw;
+        }
+        
+        #postlink {
+            margin-right: 5vw;
+        }
+        &.left {
+            li {
+                float: left;
+            }
+        }
+        &.right {
+            li {
+                float: right;
+            }
+        }
+      }
+}
+
+// FROM NICK's App.css
+.header{
+    border-bottom: 3px solid black;
+    background-image: url('/img/medieval_background.png');
+    background-position: center;
+    background-size: cover;
+    height: 25vh;
+  }
+  .category{
+    border: 3px solid black;
+    position: relative;
+    display: inline-block;
+    border-radius: 8px;
+    margin: 25px 18px;
+    background-color: grey;
+    width: 18vw;
+    height: 15vh;
+  }
+  
+  .catName{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: lightslategray;
+  }
+  
+  #searchBar{
+    margin-top: 8vh;
+    width: 75vw;
+    height: 6vh;
+    padding: 0 10px;
+    font-size: 1.7em;
+    border: 2px solid black;
+    border-radius: 6px;
+  }
