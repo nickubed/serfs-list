@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+import Home from './pages/home'
 import './App.css';
 import SearchPage from './pages/search';
 
 function App() {
   return (
     <div className="App">
-      <SearchPage/>
+      <Home />
     </div>
   );
 }
