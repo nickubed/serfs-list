@@ -19,7 +19,7 @@ const SearchPage = () => {
 
                     setPosts(result)
                 })
-        } else {
+        } else if (category) {
             fetch(`http://serfsver.herokuapp.com/listing/${category}`, {
                 method: 'GET',
             })
@@ -30,6 +30,17 @@ const SearchPage = () => {
 
                     setPosts(result)
                 })
+        } else {
+            fetch(`http://serfsver.herokuapp.com/listing`, {
+                method: 'GET',
+            })
+                .then(response => {
+                    return response.json()
+                })
+                .then(result => {
+
+                    setPosts(result)
+                })            
         }
     }
 
