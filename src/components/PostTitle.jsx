@@ -1,18 +1,21 @@
 import React from 'react';
-import FavIcon from './subcomponents/FavIcon';
+import FleurDeLis from './FleurDeLis';
 import Price from './subcomponents/Price';
 
 const PostTitle = (props) => {
     return(
-        <a href={props.link}>
-            <span>
-                <FavIcon />
-                <span>{props.date}</span>
-                <h4>{props.title}</h4>
-                <Price>{props.price}</Price>
-                <h5>({props.location})</h5>
-            </span>
-        </a>
+        <div className="postTitle">
+            <a href={props.link}>
+                <span>
+                    <FleurDeLis />
+                    {/* <span>{props.category}</span> */}
+                    <small><span> {props.location} </span></small>
+                    <span><strong>{props.title} </strong></span>
+                    <Price>{props.price || ''}</Price>
+                    <span> {props.category} </span>
+                </span>
+            </a>
+        </div>
     );
 }
 
