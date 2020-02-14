@@ -51,6 +51,7 @@ nav {
     background-color: grey;
     width: 18vw;
     height: 15vh;
+    text-align: center;
   }
   
   .catName{
@@ -63,6 +64,7 @@ nav {
   
   #searchBar{
     margin-top: 8vh;
+    margin-left: 2vw;
     width: 75vw;
     height: 6vh;
     padding: 0 10px;
@@ -99,4 +101,40 @@ nav {
   .post-browse {
     width: 90%;
     background-color: red;
+  }
+
+  #jobs {
+    background-image: url('/img/jobs.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  #services {
+    background-image: url('/img/services.jpeg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  #community {
+    background-image: url('/img/community.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  #housing {
+    background-image: url('/img/housing.gif');
+    background-position: center;
+    background-size: cover;
+  }
+
+  #for_sale {
+    background-image: url('/img/for_sale.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  #events {
+    background-image: url('/img/events.jpg');
+    background-position: center;
+    background-size: cover;
   }
