@@ -2,6 +2,7 @@ import React from 'react'
 import Search from './search'
 import fleurdelis from '../images/fleur_de_lis_yellow.svg'
 import './style.scss'
+import FleurDeLis from './FleurDeLis'
 
 const Nav = props => {
     return (
@@ -23,7 +24,7 @@ const Nav = props => {
                     <li id="favorites">
                         <h3>
                         <a href="#">
-                            <img src={fleurdelis} alt="favorite" />
+                            <FleurDeLis/>
                             <span> Favorites</span>
                         </a>
                         </h3>

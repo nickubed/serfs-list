@@ -1,13 +1,15 @@
 import React from 'react';
-import Home from './pages/home'
-import './App.css';
-import SearchPage from './pages/search';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Content from './Content';
+import './components/style.scss';
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <Router>
+      <div className="App">
+        <Content />
+      </div>
+    </Router>
   );
 }
 
