@@ -37,6 +37,7 @@ const Post = (props) => {
                     </div>
                 </div>
                 <p>{props.location.state.props.desc}</p>
+                <img src={props.location.state.props.img} />
                 <span className="">
                     <button className="button">
                         <ReplyIcon />

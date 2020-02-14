@@ -29,6 +29,7 @@ const SearchPage = () => {
                 price={post.price}
                 location='Montbrun Castle'
                 desc={post.desc}
+                img={post.img}
             />
         )
     })
