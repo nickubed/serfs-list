@@ -57,6 +57,7 @@ const SearchPage = () => {
                 location='Montbrun Castle'
                 desc={post.desc}
                 img={post.img}
+                replyTo={post.replyTo}
             />
         )
     })
