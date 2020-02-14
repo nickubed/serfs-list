@@ -58,17 +58,20 @@ nav {
     height: 15vh;
     text-align: center;
   }
-  
+  .catMain{
+    text-align: center;
+  }
   .catName{
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: lightslategray;
+    background-color: #e1e1e1;
   }
   
   .controlsJerusalem{
-    display: inline-block;
+    bottom: 0;
+    display: block;
     border: 3px solid black;
     border-radius: 8px;
     text-align: center;
@@ -119,9 +122,6 @@ nav {
   
   .post-browse {
     width: 90%;
-<<<<<<< HEAD
-    background-color: red;
-=======
     background-color: whitesmoke;
 }
 
@@ -143,7 +143,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
->>>>>>> 07c190d70bf5fed7f997429f153f85dad26b2d7c
   }
 
   .post-title {
@@ -155,6 +154,10 @@ nav {
 .post-title-title {
   width: 30%;
   font-size: 25px;
+}
+
+.subCats{
+  text-align: left;
 }
   #jobs {
     background-image: url('/img/jobs.jpg');
@@ -191,7 +194,3 @@ nav {
     background-position: center;
     background-size: cover;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> 07c190d70bf5fed7f997429f153f85dad26b2d7c
