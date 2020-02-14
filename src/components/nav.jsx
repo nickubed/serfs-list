@@ -20,7 +20,7 @@ const Nav = props => {
                         <h3>
                         <a href="#">post</a>
                         </h3>
-                    </li>                    
+                    </li>
                     <li id="favorites">
                         <h3>
                         <a href="#">
