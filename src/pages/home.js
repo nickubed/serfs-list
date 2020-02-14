@@ -7,8 +7,6 @@ import ControlsJerusalem from '../components/WhoControlsRome'
 const Home = props => {
     return (
         <div>
-            {/* <Nav /> */}
-            <Header />
             <Categories />
             <ControlsJerusalem />
         </div>
