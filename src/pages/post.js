@@ -25,30 +25,33 @@ const Post = (props) => {
                 <div className="post-header">
                     <span className="post-info">
                         <span className="post-title">
-                            <span className="post-title-title">{props.location.state.props.title}</span>                           <button className="button">
+                            <span className="post-title-title">{props.location.state.props.title}</span>                           
+                            <button className="button">
                                 <FleurDeLis />
                                 Favorite
                             </button>
                         </span>
                         <h3>Posted {Math.floor(Math.random() * 10)} days ago</h3>
                     </span>
-                    <div>
+                    <div className="replyTo">
                         <h3>{props.location.state.props.replyTo}</h3>
                     </div>
                 </div>
-                <p>{props.location.state.props.desc}</p>
-                <img src={props.location.state.props.img} />
+                <div className="description">
+                    <p>{props.location.state.props.desc}</p>
+                </div>
+                <img className="postImage" alt="major significant stuff" src={props.location.state.props.img} />
                 <span className="">
-                    <button className="button">
+                    <button className="buttonSub">
                         <ReplyIcon />
                         Reply
                     </button>
-                    <button className="button">
+                    <button className="buttonSub">
                         <ShareIcon />
                         Share
                     </button>
                 </span>
-                <div>
+                <div className="closer">
                     <h3>Category</h3>
                     <span>Overall > {props.location.state.category} > {props.location.state.subCategory}</span>
                 </div>
