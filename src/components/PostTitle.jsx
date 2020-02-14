@@ -9,7 +9,6 @@ const PostTitle = (props) => {
             <a href={props.link}>
                 <span>
                     <FleurDeLis />
-                    {/* <span>{props.category}</span> */}
                     <span><small>  févr 14  </small></span>
                     <Link to={{
                         pathname: 'post/'+props['_id'],

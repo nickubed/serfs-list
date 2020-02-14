@@ -18,13 +18,14 @@ const Post = (props) => {
     } else {
         price = ''
     }
+    console.log(props)
     return (
         <div>
             <div>
                 <div className="post-header">
                     <span className="post-info">
                         <span className="post-title">
-                            <span className="post-title-title">{props.location.state.title}</span>                           <button className="button">
+                            <span className="post-title-title">{props.location.state.props.title}</span>                           <button className="button">
                                 <FleurDeLis />
                                 Favorite
                             </button>
@@ -32,10 +33,10 @@ const Post = (props) => {
                         <h3>Posted {Math.floor(Math.random() * 10)} days ago</h3>
                     </span>
                     <div>
-                        <h3>{props.location.state.replyTo}</h3>
+                        <h3>{props.location.state.props.replyTo}</h3>
                     </div>
                 </div>
-                <p>{props.location.state.desc}</p>
+                <p>{props.location.state.props.desc}</p>
                 <span className="">
                     <button className="button">
                         <ReplyIcon />
