@@ -119,9 +119,39 @@ nav {
   
   .post-browse {
     width: 90%;
-    background-color: red;
+    background-color: whitesmoke;
+}
+
+
+  .button {
+    height: 30px;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    font-size: 15px;
   }
 
+  svg {
+    height: 20px;
+    width: 20px;
+  }
+
+  .post-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .post-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.post-title-title {
+  width: 30%;
+  font-size: 25px;
+}
   #jobs {
     background-image: url('/img/jobs.jpg');
     background-position: center;
@@ -157,4 +187,3 @@ nav {
     background-position: center;
     background-size: cover;
   }
-

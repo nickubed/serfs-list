@@ -22,6 +22,7 @@ const SearchPage = () => {
     const postList = posts.map((post) => {
         return (
             <PostTitle
+                _id={post._id}
                 category={post.category}
                 title={post.title}
                 price={post.price}
