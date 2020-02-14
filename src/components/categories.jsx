@@ -1,84 +1,85 @@
 import React from 'react'
+import {Router, Link} from 'react-router-dom'
 
-const Categories = props => {
+const Categories = () => {
     return (
         <div>
             <div className="topDiv">
                 <div className="categoryContainer">
                     <div className="category" id="community">
-                        <p className="catName">community</p>
-                    </div>
-                        <ul className="subCats">
-                            <li>fief life</li>
-                            <li>merry bands</li>
-                            <li>rituals</li>
-                            <li>soapbox</li>
-                            <li>missed connections</li>
-                        </ul>
-                </div>
-                <div className="categoryContainer">
-                    <div className="category" id="services">
-                        <p className="catName">services</p>
+                        <Link to={'/listing/community'}><p className="catName">community</p></Link>
                     </div>
                     <ul className="subCats">
-                            <li>minstrels</li>
-                            <li>apothecaries</li>
-                            <li>clergy</li>
-                            <li>heresy</li>
-                            <li>war</li>
-                        </ul>
+                        <Link to={'/listing/fief_life'}><li>fief life</li></Link>
+                        <Link to={'/listing/merry_bands'}><li>merry bands</li></Link>
+                        <Link to={'/listing/rituals'}><li>rituals</li></Link>
+                        <Link to={'/listing/soapbox'}><li>soapbox</li></Link>
+                        <Link to={'/listing/missed_connections'}><li>missed connections</li></Link>
+                    </ul>
+                    </div>
+                <div className="categoryContainer">
+                    <div className="category" id="services">
+                        <Link to={'/listing/services'}><p className="catName">services</p></Link>
+                    </div>
+                    <ul className="subCats">
+                        <Link to={'/listing/minstrels'}><li>minstrels</li></Link>
+                        <Link to={'/listing/apothecaries'}><li>apothecaries</li></Link>
+                        <Link to={'/listing/clergy'}><li>clergy</li></Link>
+                        <Link to={'/listing/heresy'}><li>heresy</li></Link>
+                        <Link to={'/listing/war'}><li>war</li></Link>
+                    </ul>
                 </div>
                 <div className="categoryContainer">
                     <div className="category" id="jobs">
-                        <p className="catName">jobs</p>
+                        <Link to={'/listing/jobs'}><p className="catName">jobs</p></Link>
                     </div>
                     <ul className="subCats">
-                        <li>plaguework</li>
-                        <li>smith</li>
-                        <li>education</li>
-                        <li>food</li>
-                        <li>mason</li>
+                        <Link to={'/listing/plaguework'}><li>plaguework</li></Link>
+                        <Link to={'/listing/smith'}><li>smith</li></Link>
+                        <Link to={'/listing/education'}><li>education</li></Link>
+                        <Link to={'/listing/food'}><li>food</li></Link>
+                        <Link to={'/listing/mason'}><li>mason</li></Link>
                     </ul>
                 </div>
             </div>
             <div className="bottomDiv">
             <div className="categoryContainer">
                 <div className="category" id="housing">
-                    <p className="catName">housing</p>
+                    <Link to={'/listing/housing'}><p className="catName">housing</p></Link>
                 </div>
                 <ul className="subCats">
-                        <li>manors</li>
-                        <li>hovels</li>
-                        <li>barns</li>
-                        <li>farms</li>
-                        <li>castles</li>
-                        <li>fiefs</li>
+                        <Link to={'/listing/manors'}><li>manors</li></Link>
+                        <Link to={'/listing/hovels'}><li>hovels</li></Link>
+                        <Link to={'/listing/barns'}><li>barns</li></Link>
+                        <Link to={'/listing/farms'}><li>farms</li></Link>
+                        <Link to={'/listing/castles'}><li>castles</li></Link>
+                        <Link to={'/listing/fiefs'}><li>fiefs</li></Link>
                     </ul>
             </div>
             <div className="categoryContainer">
                 <div className="category" id="for_sale">
-                    <p className="catName">for sale</p>
+                    <Link to={'/listing/for_sale'}><p className="catName">for sale</p></Link>
                 </div>
                 <ul className="subCats">
-                        <li>livestock</li>
-                        <li>rocks</li>
-                        <li>tools</li>
-                        <li>clothing</li>
-                        <li>relics</li>
-                        <li>peasants</li>
+                        <Link to={'/listing/livestock'}><li>livestock</li></Link>
+                        <Link to={'/listing/rocks'}><li>rocks</li></Link>
+                        <Link to={'/listing/tools'}><li>tools</li></Link>
+                        <Link to={'/listing/clothing'}><li>clothing</li></Link>
+                        <Link to={'/listing/relics'}><li>relics</li></Link>
+                        <Link to={'/listing/peasants'}><li>peasants</li></Link>
                     </ul>
             </div>
             <div className="categoryContainer">
                 <div className="category" id="events">
-                    <p className="catName">events</p>
+                    <Link to={'/listing/events'}><p className="catName">events</p></Link>
                 </div>
                 <ul className="subCats">
-                        <li>tournaments</li>
-                        <li>feasts</li>
-                        <li>mobs</li>
-                        <li>wars</li>
-                        <li>pilgrimages</li>
-                        <li>rats</li>
+                        <Link to={'/listing/minstrels'}><li>tournaments</li></Link>
+                        <Link to={'/listing/feasts'}><li>feasts</li></Link>
+                        <Link to={'/listing/mobs'}><li>mobs</li></Link>
+                        <Link to={'/listing/war'}><li>war</li></Link>
+                        <Link to={'/listing/pilgrimages'}><li>pilgrimages</li></Link>
+                        <Link to={'/listing/rats'}><li>rats</li></Link>
                     </ul>
             </div>
             </div>
