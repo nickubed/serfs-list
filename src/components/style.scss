@@ -42,12 +42,17 @@ nav {
     background-size: cover;
     height: 25vh;
   }
+
+  .categoryContainer{
+    position: relative;
+    display: inline-block;
+  }
   .category{
     border: 3px solid black;
     position: relative;
     display: inline-block;
     border-radius: 8px;
-    margin: 25px 18px;
+    margin: 25px 18px 5px 18px;
     background-color: grey;
     width: 18vw;
     height: 15vh;
