@@ -18,7 +18,7 @@ const Nav = props => {
                 <ul className="right">
                     <li id="postlink">
                         <h3>
-                        <a href="#">post</a>
+                        <a href="/post/submit">post</a>
                         </h3>
                     </li>                    
                     <li id="favorites">
