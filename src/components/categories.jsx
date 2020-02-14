@@ -61,12 +61,12 @@ const Categories = () => {
                     <Link to={'/listing/for_sale'}><p className="catName">for sale</p></Link>
                 </div>
                 <ul className="subCats">
-                        <Link to={'/listingfor_sale/livestock'}><li>livestock</li></Link>
-                        <Link to={'/listingfor_sale/rocks'}><li>rocks</li></Link>
-                        <Link to={'/listingfor_sale/tools'}><li>tools</li></Link>
-                        <Link to={'/listingfor_sale/clothing'}><li>clothing</li></Link>
-                        <Link to={'/listingfor_sale/relics'}><li>relics</li></Link>
-                        <Link to={'/listingfor_sale/peasants'}><li>peasants</li></Link>
+                        <Link to={'/listing/for_sale/livestock'}><li>livestock</li></Link>
+                        <Link to={'/listing/for_sale/rocks'}><li>rocks</li></Link>
+                        <Link to={'/listing/for_sale/tools'}><li>tools</li></Link>
+                        <Link to={'/listing/for_sale/clothing'}><li>clothing</li></Link>
+                        <Link to={'/listing/for_sale/relics'}><li>relics</li></Link>
+                        <Link to={'/listing/for_sale/peasants'}><li>peasants</li></Link>
                     </ul>
             </div>
             <div className="categoryContainer">
