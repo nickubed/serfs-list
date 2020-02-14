@@ -10,6 +10,9 @@ const Content = () => {
         <Switch>
             <Route exact path='/' component={Home}/>
             <Route exact path='/post/submit' component={newPost}/>
+            <Route path='/search'>
+                <Search/>
+            </Route>
             <Route path='/listing/:category'>
                 <Search/>
             </Route>
