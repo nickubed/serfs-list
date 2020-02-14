@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 const Categories = () => {
     return (
-        <div>
+        <div className="catMain">
             <div className="topDiv">
                 <div className="categoryContainer">
                     <div className="category" id="community">
