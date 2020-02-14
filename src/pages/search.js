@@ -46,6 +46,23 @@ const SearchPage = () => {
 
     useEffect(getPosts, [])
 
+    const getLocation = () => {
+        let locations = [
+            'Domburton',
+            'Waekefield',
+            'Athelney',
+            'Middlesbrough',
+            'Mountmend',
+            'Norwich',
+            'Thorpeness',
+            'Glaenarm',
+            'Wakefield',
+            'Ayrith',
+            'Montbrun Castle'
+        ]
+        return locations[Math.floor(Math.random() * locations.length)]
+    }
+
     const postList = posts.map((post) => {
         return (
             <PostTitle
@@ -54,9 +71,10 @@ const SearchPage = () => {
                 category={post.category}
                 title={post.title}
                 price={post.price}
-                location='Montbrun Castle'
+                location={getLocation()}
                 desc={post.desc}
                 img={post.img}
+                replyTo={post.replyTo}
             />
         )
     })

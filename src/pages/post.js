@@ -53,7 +53,7 @@ const Post = (props) => {
                 </span>
                 <div className="closer">
                     <h3>Category</h3>
-                    <span>Overall > {props.location.state.category} > {props.location.state.subCategory}</span>
+                    <span>Overall > {props.location.state.props.category} > {props.location.state.props.subCategory}</span>
                 </div>
                 {price}
             </div>
