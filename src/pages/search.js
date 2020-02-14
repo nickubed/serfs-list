@@ -23,6 +23,7 @@ const SearchPage = () => {
         return (
             <PostTitle
                 _id={post._id}
+                subCategory={post.subCategory}
                 category={post.category}
                 title={post.title}
                 price={post.price}

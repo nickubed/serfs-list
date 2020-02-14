@@ -24,7 +24,7 @@ const NewPost = () => {
             subCategory
         }
         console.log(process.env.REACT_APP_SERVER_URL)
-        fetch(`${process.env.REACT_APP_SERVER_URL}listing/new`, {
+        fetch(`${process.env.REACT_APP_SERVER_URL || 'http://serfsver.herokuapp.com'}listing/new`, {
             method: 'POST',
             body: JSON.stringify(data),
             headers: {
