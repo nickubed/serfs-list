@@ -62,6 +62,19 @@ nav {
     background-color: lightslategray;
   }
   
+  .controlsJerusalem{
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 8px;
+    text-align: center;
+    width: 18vw;
+  }
+
+  .jerusalemContainer{
+    float: right;
+    margin: 2vw;
+  }
+  
   #searchBar{
     margin-top: 8vh;
     margin-left: 2vw;
@@ -138,3 +151,4 @@ nav {
     background-position: center;
     background-size: cover;
   }
+
