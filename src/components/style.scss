@@ -42,15 +42,21 @@ nav {
     background-size: cover;
     height: 25vh;
   }
+
+  .categoryContainer{
+    position: relative;
+    display: inline-block;
+  }
   .category{
     border: 3px solid black;
     position: relative;
     display: inline-block;
     border-radius: 8px;
-    margin: 25px 18px;
+    margin: 25px 18px 5px 18px;
     background-color: grey;
     width: 18vw;
     height: 15vh;
+    text-align: center;
   }
   
   .catName{
@@ -61,8 +67,23 @@ nav {
     background-color: lightslategray;
   }
   
+  .controlsJerusalem{
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 8px;
+    text-align: center;
+    width: 18vw;
+  }
+
+  .jerusalemContainer{
+    position: relative;
+    float: right;
+    margin: 2vw;
+  }
+  
   #searchBar{
     margin-top: 8vh;
+    margin-left: 2vw;
     width: 75vw;
     height: 6vh;
     padding: 0 10px;
@@ -98,5 +119,47 @@ nav {
   
   .post-browse {
     width: 90%;
+<<<<<<< HEAD
     background-color: whitesmoke;
 }
+=======
+    background-color: red;
+  }
+
+  #jobs {
+    background-image: url('/img/jobs.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  #services {
+    background-image: url('/img/services.jpeg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  #community {
+    background-image: url('/img/community.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  #housing {
+    background-image: url('/img/housing.gif');
+    background-position: center;
+    background-size: cover;
+  }
+
+  #for_sale {
+    background-image: url('/img/for_sale.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  #events {
+    background-image: url('/img/events.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+>>>>>>> 3f234845653ff2acf4b9efcccce1d057c65ebe0a
